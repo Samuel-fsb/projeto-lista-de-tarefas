@@ -1,6 +1,11 @@
 # projeto-lista-de-tarefas
 
-Link do projeto: 
+Link do projeto: https://samuel-fsb.github.io/projeto-lista-de-tarefas/
+
+
+Interface do projeto:
+<img width="1247" height="814" alt="projeto-lista-de-tarefas" src="https://github.com/user-attachments/assets/cccc6757-b0ec-442c-9348-b3a7bce12596" />
+
 
 📝 **Projeto Lista de Tarefas**
 
