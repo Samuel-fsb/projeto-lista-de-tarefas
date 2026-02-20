@@ -22,7 +22,7 @@ Este é um projeto de Lista de Tarefas desenvolvido para consolidar conhecimento
 
 Neste exercício, foquei em aplicar os seguintes conceitos:
 
-- addEventListener: Utilizado para "escutar" as interações do usuário.
+* addEventListener: Utilizado para "escutar" as interações do usuário.
 * Manipulação do DOM: Criação dinâmica de elementos (document.createElement) e remoção de nós (.remove()).
 * Eventos de Click: Implementação de lógica para adicionar tarefas, excluir itens e alternar temas.
 * Temas Dinâmicos: Uso de JavaScript para trocar classes CSS e alterar o visual do site em tempo real.
