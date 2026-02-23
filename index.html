@@ -16,7 +16,6 @@
 
         body{
             background-color: #f4f4f4;
-
             transition: 0.3s ease;
         } 
 
@@ -68,7 +67,6 @@
         }
 
         input:hover{
-            box-shadow: 3px 3px 3px black;
             transition: 0.3s;
         }
 
@@ -80,6 +78,7 @@
             font-size: 14px;
             color: white;
             border: none;
+            text-align: center;
         }
 
         li{
@@ -143,6 +142,7 @@
             color: white;
 
         }
+
         .escuro{
             border-radius: 50px 50px 50px 50px;
             padding: 15px;
@@ -166,38 +166,51 @@
             font-size: 20px;
         }
 
-        @media screen and (max-width: 200px){
+        @media screen and (max-width: 600px){
             h1{
                 font-size: 50px;
             }
 
             #menu{
                 flex-flow: row-reverse;
+                position: relative;
+                justify-content: flex-start;
+                display: flex;
+                margin-bottom: -70px;
+            }
+
+            #flex{
+                flex-flow: column;
+                align-items: center;
+            }
+
+            input{
+            border-radius: 8px 8px 0px 0px;
+            width: 90%;
             }
 
             button#botao{
-                padding: 16px;
+                width: 91%;
+                border-radius: 0px 0px 8px 8px;
+                text-align: center;
             }
 
             li{
-                width: 250px;
-            }
-            p#dt{
-                font-size: 10px;
+                width: 90%;
             }
         }
     </style>
 </head>
+<div id="menu">
+        <button class="escuro"><i class="fa-regular fa-moon"></i></i></button>
+        <button class="claro"><i class="fa-regular fa-sun"></i></button>
+        <button class="azul"><i class="fa-solid fa-book-open"></i></button>
+</div>
 <body>
     <h1>Lista de Tarefas</h1>
 
     <p id="dt"></p>
 
-    <div id="menu">
-            <button class="escuro"><i class="fa-regular fa-moon"></i></i></button>
-            <button class="claro"><i class="fa-regular fa-sun"></i></button>
-            <button class="azul"><i class="fa-solid fa-book-open"></i></button>
-    </div>
 
     <div>
         <main id="toDoList">
