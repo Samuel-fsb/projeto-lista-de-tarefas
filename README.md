@@ -1,4 +1,4 @@
-# projeto lista de tarefas
+# Projeto lista de tarefas
 
 Link do projeto: https://samuel-fsb.github.io/projeto-lista-de-tarefas/
 
