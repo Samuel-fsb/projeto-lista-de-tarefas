@@ -10,7 +10,7 @@ Interface do projeto:
 📝 **Sobre projeto**
 
 
-Este é um projeto de Lista de Tarefas desenvolvido para consolidar conhecimentos fundamentais de JavaScript, especificamente a manipulação do DOM e a gestão de eventos.
+Lista de tarefas criada colocar em prática o que aprendi sobre add event listener. Usando o método 'click', consigo adicionar elementos na tela via JavaScript e removê-los também. Além disso, adicionei três botão para a troca dinâmica dos temas do site.
 
 ### Tecnologias Utilizadas
 1. HTML5
